@@ -122,9 +122,10 @@ header{
 }
 #name_header{
   text-align: left;
-  font-size: 25px;
   color: #FDFFF5;
   letter-spacing: 2.5px;
+  font-size: 20px;
+  padding-top: 100px;
 }
 header nav{
   order: 1;
@@ -181,7 +182,7 @@ footer ul li{
 
   margin: 0 auto;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   font-weight: bold;
   font-size: 20px;
   height: 110px;
@@ -207,7 +208,6 @@ footer p{
       height: 150px;
     }
     #name_header{
-      padding-top: 100px;
       font-size: 35px;
     }
     header nav{
