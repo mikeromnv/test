@@ -1,7 +1,8 @@
 a{
   font-weight: bold;
+  
   font-size: 20px;
-  color: black;
+  color: #000000
 }
 
 /*----body----*/
@@ -16,6 +17,7 @@ body{
   margin: 0;
   background-image: url(bckg.jpg);
   background-size: cover;
+ 
 }
 
 .container{
@@ -46,7 +48,8 @@ body{
   border-radius: 15px;
   margin-top: 15px;
   padding: 15px; 
-  font-size: 20px;
+  font-size: 23px;
+  color: #FDFFF5;
 }
 
 /*----table----*/
@@ -57,27 +60,33 @@ body{
   margin-top: 15px;
   padding: 15px; 
   order: -1;
+  height: auto;
+  display: flex;
+    overflow: scroll;
+  
 }
 table {
     width: 100%;
+
     padding: 0px;
     text-align: center;
     border-collapse: separate;
     border-spacing: 2px;
-    background-color:  rgb(255, 255, 255);
-    color: white;
+    background-color:  #FDFFF5;
+    color: #FDFFF5;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+   
+    
 
 }
 .head-table{
   background-color: #680c0b;
+  font-weight: bold;
 }
 tbody{
-    display: table-row-group;
-    vertical-align: middle;
-    unicode-bidi: isolate;
-    border-color: inherit;
+    
+    width: 100%;
 }
 tr {
   background-color: #bd4846;
@@ -113,7 +122,7 @@ header{
 }
 #name_header{
   text-align: left;
-  
+  font-size: 25px;
   color: #FDFFF5;
   letter-spacing: 2.5px;
 }
@@ -190,28 +199,21 @@ footer p{
 
 
 @media screen and (min-width: 800px) {
-  body{
-      width: auto;
-  }
-
-
+    body{
+        width: auto;
+    }
     header{
-      
       display: block;
       height: 150px;
     }
     #name_header{
       padding-top: 100px;
+      font-size: 35px;
     }
     header nav{
-       /*order: 0;
-       max-width: 960px;
-       width: auto;
-       */
       margin: 0 auto;
     }
     header nav ul{
-      /*order: 0;*/
       max-width: 960px;
       width: auto;
       margin: 0 auto;
@@ -234,17 +236,13 @@ footer p{
     }
     .tab{
       order: 0; 
+      overflow: unset;
     }
+    
     .nav-footer{
       max-width: 960px;
       width: auto;
-
       padding: 10px 15px;
-      /*
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      */
     }
   
   
